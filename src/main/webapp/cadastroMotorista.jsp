@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%
-    String paginaAtual = "dashboard"; // Defina o valor conforme a página
+    String paginaAtual = "cadastroMotorista"; // Defina o valor conforme a página
 %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Dashboard | Hermes</title>
+<title>Cadastro de motoristas | Hermes</title>
 <link href="./css/telaInicialStyle.css" rel="stylesheet">
 <link rel="icon" type="image/png" href="./img/logo_hermes.png">
 </head>
@@ -30,7 +30,7 @@
 							href="telaInicial.jsp"> Dashboard </a></li>
 						<li class="nav-item"><a
 							class="nav-link <%= paginaAtual.equals("cadastroMotorista") ? "active" : "" %>"
-							href="cadastroMotorista.jsp"> Cadastro de motoristas </a></li>
+							href="cadastroMotorista.jsp"> Cadastro de motoristas</a></li>
 						<li class="nav-item"><a
 							class="nav-link <%= paginaAtual.equals("configuracoes") ? "active" : "" %>"
 							href="configuracoes.jsp"> Configurações </a></li>
@@ -47,9 +47,9 @@
 			<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 				<div
 					class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-					<h1 class="h2">Dashboard</h1>
+					<h1 class="h2">Cadastro de motoristas</h1>
 				</div>
-				<p>Bem-vindo à tela inicial do Hermes!</p>
+				<p>Aqui adicionamos novos motoristas!</p>
 			</main>
 		</div>
 	</div>

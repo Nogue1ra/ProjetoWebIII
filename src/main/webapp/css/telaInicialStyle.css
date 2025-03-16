@@ -1,0 +1,84 @@
+/* Estilo do Body */
+body {
+	background-color: #2d2d2d; /* Cinza mais escuro */
+	color: #fff; /* Cor do texto */
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilo da Navbar Lateral */
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	width: 250px; padding : 48px 0 0;
+	box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+	background-color: #404040;
+	padding: 48px 0 0; /* Cinza escuro */
+}
+
+.sidebar-sticky {
+	position: relative;
+	top: 0;
+	height: calc(100vh - 48px);
+	padding-top: 0.5rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* Estilo da Logo e Título */
+.text-center {
+	text-align: center;
+}
+
+.text-center img {
+	width: 80px; /* Tamanho da logo */
+}
+
+.text-center h3 {
+	color: #fff; /* Cor do título */
+	font-size: 1.5rem;
+	margin-top: 10px; /* Espaçamento entre a logo e o título */
+}
+
+/* Estilo do Conteúdo Principal */
+main {
+	margin-left: 250px; /* Ajuste para a largura da navbar */
+	padding: 20px;
+	background-color: #2d2d2d; /* Cinza mais escuro */
+	color: #fff; /* Cor do texto */
+}
+
+/* Estilo da Lista de Links */
+.nav.flex-column {
+	list-style-type: none; /* Remove as bolinhas */
+	padding-left: 0; /* Remove o padding padrão da lista */
+}
+
+.nav.flex-column .nav-item {
+	margin: 0; /* Remove margens extras */
+}
+
+/* Estilo dos Links da Navbar */
+.nav-link {
+	color: #fff !important; /* Cor do texto */
+	text-decoration: none; /* Remove o sublinhado */
+	padding: 15px 20px;
+	margin: 8px 0;
+	border-radius: 5px;
+	transition: background-color 0.3s, color 0.3s; /* Transição suave */
+	display: block; /* Faz o link ocupar toda a largura */
+}
+
+.nav-link:hover {
+	background-color: #3a4530; /* Cor de fundo ao passar o mouse */
+	color: #fff !important; /* Mantém o texto branco */
+}
+
+.nav-link.active {
+	background-color: #2d3725; /* Cor de fundo do link ativo */
+	color: #fff !important; /* Mantém o texto branco */
+}

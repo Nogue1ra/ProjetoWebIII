@@ -31,25 +31,26 @@ body {
 }
 
 .input-login {
-	background: transparent;
-	border: none;
-	border-bottom: 2px solid #fff;
-	border-radius: 0;
-	color: #fff;
-	margin-bottom: 20px;
-	padding: 10px 0;
-	box-shadow: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    box-shadow: none;
+    width: 100%;
 }
 
 .input-login::placeholder {
-	color: #ccc;
+    color: #ccc;
 }
 
 .input-login:focus {
-	outline: none;
-	border-bottom: 2px solid #ffcc00;
-	box-shadow: none;
-	background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid #ffcc00;
+    color: #fff;
+    background-color: transparent;
 }
 
 #links-login {
