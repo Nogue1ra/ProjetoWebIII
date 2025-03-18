@@ -1,4 +1,4 @@
-package com.hermes.servlets;
+package com.hermes.controller;
 
 import java.io.IOException;
 
@@ -18,7 +18,7 @@ public class LoginServlet extends HttpServlet {
         String email = request.getParameter("InputEmail");
         String senha = request.getParameter("InputSenha");
 
-        if ("admin@exemplo.com".equals(email) && "1234".equals(senha)) {
+        if ("admin@qi.com".equals(email) && "Senha123".equals(senha)) {
             response.sendRedirect("telaInicial.jsp");
         } else {
             response.sendRedirect("index.jsp?erro=1");

@@ -29,11 +29,14 @@
 							class="nav-link <%= paginaAtual.equals("dashboard") ? "active" : "" %>"
 							href="telaInicial.jsp"> Dashboard </a></li>
 						<li class="nav-item"><a
-							class="nav-link <%= paginaAtual.equals("cadastroMotorista") ? "active" : "" %>"
-							href="cadastroMotorista.jsp"> Cadastro de motoristas</a></li>
+							class="nav-link <%= paginaAtual.equals("viagens") ? "active" : "" %>"
+							href="viagens.jsp"> Registro de viagens </a></li>
 						<li class="nav-item"><a
-							class="nav-link <%= paginaAtual.equals("configuracoes") ? "active" : "" %>"
-							href="configuracoes.jsp"> Configurações </a></li>
+							class="nav-link <%= paginaAtual.equals("cadastroMotorista") ? "active" : "" %>"
+							href="cadastroMotorista.jsp"> Cadastro de motoristas </a></li>
+						<li class="nav-item"><a
+							class="nav-link <%= paginaAtual.equals("cadastroVeiculos") ? "active" : "" %>"
+							href="cadastroCarro.jsp"> Cadastro de veículos </a></li>
 						<li class="nav-item"><a
 							class="nav-link <%= paginaAtual.equals("relatorios") ? "active" : "" %>"
 							href="relatorios.jsp"> Relatórios </a></li>
